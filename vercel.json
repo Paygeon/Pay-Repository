@@ -1,14 +1,7 @@
 {
-  "builds": [
-    { "src": "gulp release", "use": "@now/static-build" }
-  ]
-}
-{
-  "builds": [
-    {
-      "src": "gulp release",
-      "use": "@now/static-build",
-      "config": { "outputDirectory": "dist" }
-    }
-  ]
+	"version": 2,
+	"builds": [{ "src": "gulp release", "use": "@vercel/static-build" }],
+	"routes": [
+		{ "src": "/app/preview/(.*)", "dest": "https://preview.webmaker.app/$1" }
+	]
 }
