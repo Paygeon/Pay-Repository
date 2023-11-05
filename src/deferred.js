@@ -1,6 +1,6 @@
 export function deferred() {
 	var d = {};
-	var promise = new Promise(function (resolve, reject) {
+	var promise = new Promise(function(resolve, reject) {
 		d.resolve = resolve;
 		d.reject = reject;
 	});

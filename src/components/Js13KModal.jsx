@@ -43,7 +43,8 @@ export function Js13KModal({ show, closeHandler }) {
 						rel="noopener"
 					>
 						Read more about this collaboration
-					</a>.
+					</a>
+					.
 				</p>
 
 				<ul>

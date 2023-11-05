@@ -10,7 +10,6 @@
 	"cssMode": "css",
 	"jsMode": "es6",
 	"layoutMode": 1,
-	"js":
-		"\nconst { h, Component, render, createElement } = window.preact;\nconst React = {createElement}\n\nclass App extends Component {\n  constructor() {\n    super();\n    this.message = 'World';\n  }\n  render() {\n    return (<div>Hello {this.message}</div>)\n  }\n}\nrender(<App/>, window.root)\n\n",
+	"js": "\nconst { h, Component, render, createElement } = window.preact;\nconst React = {createElement}\n\nclass App extends Component {\n  constructor() {\n    super();\n    this.message = 'World';\n  }\n  render() {\n    return (<div>Hello {this.message}</div>)\n  }\n}\nrender(<App/>, window.root)\n\n",
 	"html": "<div id=\"root\"></div>\n"
 }

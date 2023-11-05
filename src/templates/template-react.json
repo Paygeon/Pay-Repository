@@ -1,8 +1,7 @@
 {
 	"title": "React template",
 	"externalLibs": {
-		"js":
-			"\nhttps://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js\nhttps://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js",
+		"js": "\nhttps://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js\nhttps://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js",
 		"css": ""
 	},
 	"updatedOn": 1531063870556,
@@ -12,7 +11,6 @@
 	"cssMode": "css",
 	"jsMode": "es6",
 	"layoutMode": 1,
-	"js":
-		"class App extends React.Component {\n  constructor() {\n    super();\n    this.message = 'World';\n  }\n  render() {\n    return (<h1>Hello {this.message}</h1>);\n  }\n}\nReactDOM.render(<App/>, window.root);\n\n\n",
+	"js": "class App extends React.Component {\n  constructor() {\n    super();\n    this.message = 'World';\n  }\n  render() {\n    return (<h1>Hello {this.message}</h1>);\n  }\n}\nReactDOM.render(<App/>, window.root);\n\n\n",
 	"html": "<div id=\"root\"></div>\n"
 }

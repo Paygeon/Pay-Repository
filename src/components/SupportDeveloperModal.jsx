@@ -23,10 +23,11 @@ export function SupportDeveloperModal({ show, closeHandler }) {
 						rel="noopener noreferrer"
 					>
 						side projects
-					</a>, I am accepting donations. Your pledge, no matter how small, will
-					act as an appreciation towards my work and keep me going forward
-					making Web Maker more awesome🔥. So please consider donating. 🙏🏼
-					(could be as small as $1/month).
+					</a>
+					, I am accepting donations. Your pledge, no matter how small, will act
+					as an appreciation towards my work and keep me going forward making
+					Web Maker more awesome🔥. So please consider donating. 🙏🏼 (could be as
+					small as $1/month).
 				</p>
 
 				<div

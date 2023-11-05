@@ -75,8 +75,7 @@ export const jsLibs = [
 		type: 'js'
 	},
 	{
-		url:
-			'https://getuikit.com/assets/uikit/dist/js/uikit.js',
+		url: 'https://getuikit.com/assets/uikit/dist/js/uikit.js',
 		label: 'UIkit 3',
 		type: 'js'
 	},
@@ -150,8 +149,7 @@ export const cssLibs = [
 		type: 'css'
 	},
 	{
-		url:
-			'https://getuikit.com/assets/uikit/dist/css/uikit.css',
+		url: 'https://getuikit.com/assets/uikit/dist/css/uikit.css',
 		label: 'UIkit 3',
 		type: 'css'
 	},
