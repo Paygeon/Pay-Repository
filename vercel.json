@@ -1,7 +1,0 @@
-{
-	"version": 2,
-	"builds": [{ "src": "gulp release", "use": "@vercel/static-build" }],
-	"routes": [
-		{ "src": "/app/preview/(.*)", "dest": "https://preview.webmaker.app/$1" }
-	]
-}

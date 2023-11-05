@@ -1,5 +1,0 @@
----
-title: 'Layouts'
----
-
-Coming soon...

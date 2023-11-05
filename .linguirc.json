@@ -1,8 +1,0 @@
-{
-	"compileNamespace": "es",
-	"localeDir": "src/locales/",
-	"srcPathDirs": ["src/components"],
-	"format": "po",
-	"fallbackLocale": "en",
-	"sourceLocale": "en"
-}
